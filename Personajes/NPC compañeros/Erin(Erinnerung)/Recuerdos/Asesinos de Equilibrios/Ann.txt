@@ -1,0 +1,13 @@
+Potenciadora.
+
+Nen:potencia cualidades basicas a las de un perro.
+
+Fuerza    +1
+Velocidad +2
+Olfato y Oido para tiradas de percepcion +2
+Empeora la vista para tiradas de percepcion -1
+
+Coloca un collar sobre su compañero,Nen sale para darle formas de oreja y cola (dependiendo la personalidad es distinta raza
+de perro)
+
+Vida: 20

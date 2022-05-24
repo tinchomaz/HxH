@@ -1,0 +1,9 @@
+Vida: 30
+
+Agi: 2
+
+Daño: 2d4
+
+NEN: Fuego
+     Electricidad
+     Silencio

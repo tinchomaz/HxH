@@ -1,0 +1,20 @@
+Gen
+Especialista
+
+Vida: 20
+
+La respiracion de Gen esta potenciada,como si de adrenalina se tratara.Los purificadores de su mascara en realidad son
+contenedores,los cuales se llenan luego de varios minutos canalizando su habilidad.Gen les pasa los contenedores llenos a 
+sus compañeros,que tienen mascaras adaptadas para usarlos,y le pasan los contenedores vacios a Gen para que los llene
+
+Cada contenedor dura 3 turnos y le da a los que usen
+
+Daño +6 da igual el tipo de daño
+
+Regeneracion +4 por turno
+
+Fuerza +1
+
+Agi +1
+
+Percepcion +2

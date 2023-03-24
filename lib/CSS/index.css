@@ -6,7 +6,6 @@ form{
     padding: 10px;
     border: 5px outset grey;
     margin: 12% 40%;
-    background:url(img/logo.png) no-repeat 50% 35%;
 
     font-family:garamond solid;
     border-radius: 30%;
@@ -52,7 +51,6 @@ form{
         padding: 10px;
         border: 5px outset grey;
         margin: 50% 25%;
-        background:url(img/Logo.png) no-repeat 50% 35%;
     
         font-family:garamond solid;
         border-radius: 30%;
@@ -98,7 +96,6 @@ form{
         padding: 10px;
         border: 5px outset grey;
         margin: 50% 25%;
-        background:url(img/Logo.png) no-repeat 50% 35%;
     
         font-family:garamond solid;
         border-radius: 30%;
@@ -144,7 +141,6 @@ form{
         padding: 10px;
         border: 5px outset grey;
         margin: 40% 25%;
-        background:url(img/Logo.png) no-repeat 50% 35%;
     
         font-family:garamond solid;
         border-radius: 30%;

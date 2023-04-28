@@ -77,9 +77,10 @@
 }
 
 body{
-  background: url(../../CSS/IMG/fondoLogo.jpg) no-repeat 90% 100% fixed ;
-  background-size: 20%;
+  background: url(../../CSS/IMG/fondoLogo.jpg) no-repeat 99% 100% fixed;
+  background-size: 10%;
   margin: 0;
+  background-attachment: fixed;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);

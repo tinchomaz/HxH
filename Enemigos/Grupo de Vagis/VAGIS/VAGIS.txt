@@ -1,0 +1,29 @@
+Materializador:
+
+crea una pistola la cual siempre da en el blanco que tambien es creado junto a ella.
+
+La pistola viene sin municion,pero se podra usar cualquier material que el usuario desee como proyectil (dependiendo el material realizara mas o menos daño).
+
+Cuando se crea la pistola,junto a ella aparece un blanco pequeño de unos 0.5cm°2 de grande.El usuario debera poner este blanco en su objetivo con tal de
+que la pistola dispare y de en este.
+
+Siempre da en el objetivo mientras este no este tapado por algo inquebrantable (una pared de concreto por ejemplo) o a una distancia mayor a 500m.
+Para esto usa Manipulacion
+
+
+El arma invocada puede ser cualquier tipo de revolver.El usuario puede crear balas con Nen pero es muy complicado (necesita superar 16).
+
+
+
+Cuando el usuario decide suicidarse este se transforma en Especialista
+
+Puede usar poderes de transmutacion para agregarles cualidades especiales a las balas,como explosivas,electrificantes.
+
+ESPECIALISTA:
+
+Al poner su blanco en la cabeza y disparar su arma.Este es asesinado por su propio Hatsu.
+
+Luego de 10 segundos recupera la vida y es recuperado de cualquier herida o malestar que tuviera en su cuerpo.
+
+Esta habilidad tiene un limite de 6 disparos antes de ser recargada.Para recargar el arma,esta no tiene que ser invocada por 6 dias completos.
+Si es invocada dentro de 6 dias no recupera ninguna bala para resucitar hasta que esta arma descanse 6 dias

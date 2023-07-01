@@ -1,0 +1,30 @@
+Determinacion:
+
+Es capaz de implantar determinacion como una orden en una persona u objeto vivo,esta complira con su maximo esfuerzo la orden mientras esta sea posible o 
+este dentro de sus posibilidades.
+
+Por ejemplo: Hacer crecer un arbol en 1 año es posible
+Hacer crecer un arbol en un dia no.
+
+Si el ser vivo es capaz de ver una flama en la frente de Aslan,este podra recibir la Determinacion,ya que ambos comparten el mismo deseo
+
+RESTRICCIONES
+
+El ser que vaya a recibir la determinacion tiene que estar de acuerdo de manera conciente o inconciente con recibir la misma.Ya sea su mente o su cuerpo
+fisico (como es a la hora de curar a alguien inconciente).
+
+No puede usarse para que el objetivo se realice daño a si mismo de manera directa.
+
+Por ejemplo: Puede determinar a una persona para que golpee con todas sus fuerzas una puerta.Este se lastimara la mano por el golpe en si,pero no por la
+orden dada a el objetivo.
+
+
+Aslan generalmente usa determinacion pocas veces y con motivos puros y buenos.Cura a gente de heridas de manera que puedan recuperarse de manera milagrosa.
+
+Hay determinaciones que duran toda la vida,estas mismas son tan fuertes ya que el ser que las recibe asi lo desea.
+
+Puede usar su habilidad 1 vez por ser vivo durante un periodo de un mes.Aquellos que tienen una determinacion de por vida no pueden recibir otra determina_
+cion
+
+Aslan no tiene ninguna aptitud para pelear por si solo,pero con su gran carisma y buen corazon es capaz de conseguir que sus aliados realicen las acciones
+que deseen lo mejor posible,casi rozando lo imposible.

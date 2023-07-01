@@ -1,0 +1,25 @@
+Vidia es Manipuladora
+
+
+Hades
+
+Puede manipular una serie de cuchillos con diversos colores.Hacerlos flotar,volar,arrojarlos,pegarlos a
+su mano para formar una manopla cortante.Todo eso esta dentro de sus capacidades basicas de manipuladora
+
+
+
+Arcoiris
+
+Mediante emision puede darle caracteristicas a sus cuchillos dependiendo el color
+
+Rojo y Naranja: Fuego.Puede generar llamas de sus filos o quemar al cortar al enemigo,dependiendolo que decida Vidia
+
+
+Amarillo: Genera una pequeña descarga,lo suficiente para inmovilizar unos instantes al enemigo
+
+Marron: Crea una cuerda que es dificil de romper y tensarse.Las cuchillas se pueden dispersar en un area de 20 m de diametro en domo
+
+Azul y Violeta: Cuando impactan ambos cuchillos,empiezan a generar un hilo de NEN entre ambos.Ambos cuchillos generan en sus mangos un hilo de
+NEN que transmite las caracteristicas que reciba el otro.Por ejemplo,si el violeta recibe una descarga,la transmite hacia el azul.
+
+Carbon: Se vuelven cuchillas resistentes y duras contra el choque.Las usa como escudo o para trabar algo

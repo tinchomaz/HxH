@@ -1,0 +1,17 @@
+Guardia rojo:
+Vida: 0
+Agi: 3
+Per: 1
+Cuchillo: 2d6+Agi
+
+Guardia amarillo:
+Vida: 30
+Fuerza: 3
+Per: 0
+Garrote: Fuerza xd4+4
+
+Guardia azul:
+Vida: 2
+Agi: 3
+Per: 2
+Lanza: 2d8+Agi

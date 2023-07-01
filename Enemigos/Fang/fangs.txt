@@ -1,0 +1,8 @@
+Fangs
+AGI: 7
+Fuerza:0
+Percepcion:4
+
+Combate C/C:1
+Correr:2
+Esconderse:4

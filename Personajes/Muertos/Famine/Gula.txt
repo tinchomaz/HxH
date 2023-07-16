@@ -1,0 +1,15 @@
+Gula
+vida:
+
+Nivel 1:30
+Nivel 2:70
+Nivel 3:100
+Nivel 4:200
+
+Vida Actual: 70
+
+Mismos STATS que Famine
+
+Daño:
+
+3D8 + Fuerza + 10

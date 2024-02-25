@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Asociación del Cazador</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/Buscados.css" rel="stylesheet" />
+
+    <style>
+        /* CSS para los botones personalizados */
+        .btn-custom {
+            padding: 20px 40px;
+            font-size: 24px;
+        }
+
+        /* CSS para el cuadro de información */
+        .info-box {
+            display: none; /* Ocultar inicialmente */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            z-index: 9999; /* Asegurar que esté por encima de otros elementos */
+            max-width: 80%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        /* Ajuste para el texto */
+        .info-content {
+            margin-top: 40px; /* Margen hacia abajo para dejar espacio para el botón de cierre */
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light"><img src="assets/LogoNav.png" width="76%"></div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="inicio.html">Inicio</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="noticias.html">Noticias</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="cazadores.html">Cazadores Cerca Disponibles</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="rumores.html">Rumores</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="buscados.html">Buscados</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="servicios.html">Servicios</a>
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn btn-primary" id="sidebarToggle">Mostrar Menu</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </div>
+            </nav>
+            <!-- Botones -->
+            <div id="botones" class="text-center mt-5">
+                <button class="btn btn-primary btn-custom mr-3" onclick="mostrarVentana('infoArmas')">Armas de Nen</button>
+                <div id="infoArmas" class="info-box">
+                    <button class="close-btn" onclick="cerrarVentana('infoArmas')">Cerrar</button>
+                    <div id="infoContentArmas" class="info-content">
+                        Arma personalizada susceptible al nen.
+                        Esta arma reaccionara al inbuirla en Nen,la cual tendra alguno de los siguientes efectos (se puede adquirir más de un efecto a la vez):
+                        <ul>
+                            <li>Fuego: Esta arma estara envuelta en llamas la cual quemaran al oponente
+                                <br>
+                                PRECIO: $10.000
+                            </li>
+                            <li>Hielo: Esta arma expulzara un aire gelido que congelara al enemigo,obstaculizando sus movimientos
+                                <br>
+                                PRECIO: 10.000
+                            </li>
+                            <li>Electricidad: La electricidad conducida por esta arma aturdira al contrincante *PRECAUCION,PUEDE SER CONTRAPRODUCENTE PARA EL USUARIO QUE LA USA*
+                                PRECIO: $30.000
+                            </li>
+                            <li>Explosion: Si asi lo desea,el arma podra producir unas pequeñas explosiones que dañaran a su alrededor *EL ARMA PUEDE RESULTAR DAÑADA POR EFECTO DE LA MISMA*
+                                PRECIO: $50.000
+                            </li>
+                            <li>Veneno: El arma producira un gas de Nen venenoso
+                                PRECIO: $30.000
+                            </li>
+                            <button onclick="adquirirServicio()">Adquirir Servicio</button>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-custom mr-3" onclick="mostrarVentana('infoExorcistas')">Exorcistas de Nen</button>
+                <div id="infoExorcistas" class="info-box">
+                    <button class="close-btn" onclick="cerrarVentana('infoExorcistas')">Cerrar</button>
+                    <div id="infoContentExorcistas" class="info-content">
+                        Segun la dificultad del exorcismo de Nen,dependera el precio.Comunicarse con el exorcista para obtener más informacion
+                        <button onclick="adquirirServicio()">Adquirir Servicio</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-custom mr-3" onclick="mostrarVentana('infoComprar')">Comprar Información</button>
+                <div id="infoComprar" class="info-box">
+                    <button class="close-btn" onclick="cerrarVentana('infoComprar')">Cerrar</button>
+                    <div id="infoContentComprar" class="info-content">
+                        Adquirir informacion sobre algo en concreto sera facil con nuestros cazadores,informantes o investigadores.Segun la dificultad de la informacion a conseguir,sera el precio.
+                        <button onclick="adquirirServicio()">Adquirir Servicio</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-custom" onclick="mostrarVentana('infoCazador')">Cazador a Sueldo</button>
+                <div id="infoCazador" class="info-box">
+                    <button class="close-btn" onclick="cerrarVentana('infoCazador')">Cerrar</button>
+                    <div id="infoContentCazador" class="info-content">
+                        Siempre alguien se puede interponer en tu camino,este servicio es para ayudarte a evitar eso.Desde servicio de escolta,hasta acabar con tu nemesis.
+                        Segun el nivel del cazador sera su precio a pagar por dia
+                        <ul>
+                            <li>Nivel 1(cazador con casi 0 experiencia en NEN) $5.000</li>
+                            <li>Nivel 2(cazador con conocimientos de Nen y un uso basico de Hatsu) $20.000</li>
+                            <li>Nivel 3(cazador con años de trayectoria,buen uso de Hatsu y control perfecto del Nen basico) $50.000</li>
+                            <li>Nivel AS(nuestros mejores cazadores,su fuerza equivale a la de 5 nivel 3) $100.000</li>
+                        </ul>
+                        <button onclick="adquirirServicio()">Adquirir Servicio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script para mostrar y ocultar cuadro de información -->
+    <script>
+        function mostrarVentana(id) {
+            var infoBox = document.getElementById(id);
+            if (infoBox) {
+                infoBox.style.display = 'block';
+            }
+        }
+
+        function cerrarVentana(id) {
+            var infoBox = document.getElementById(id);
+            if (infoBox) {
+                infoBox.style.display = 'none';
+            }
+        }
+
+        function adquirirServicio() {
+            alert("Un Cazador Designado Se Comunicará A La Brevedad Por Esta Página");
+        }
+    </script>
+</body>
+</html>
